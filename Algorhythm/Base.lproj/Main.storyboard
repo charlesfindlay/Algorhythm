@@ -16,10 +16,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SML-Um-wX9">
-                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9jS-vD-6Se">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="PQI-Cj-chN"/>
+                                    <constraint firstAttribute="height" constant="200" id="ifA-gK-90e"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SML-Um-wX9">
+                                <rect key="frame" x="137" y="392" width="46" height="30"/>
                                 <state key="normal" title="Button">
-                                    <color key="titleColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -27,10 +33,11 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.10757297855990433" green="0.10809073708481591" blue="0.77691462688421054" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstAttribute="centerY" secondItem="9jS-vD-6Se" secondAttribute="centerY" id="SuF-2L-i7D"/>
+                            <constraint firstAttribute="centerX" secondItem="9jS-vD-6Se" secondAttribute="centerX" id="bhb-a0-h5c"/>
+                            <constraint firstItem="SML-Um-wX9" firstAttribute="top" secondItem="9jS-vD-6Se" secondAttribute="bottom" constant="8" id="bit-8b-Ubb"/>
                             <constraint firstAttribute="centerY" secondItem="SML-Um-wX9" secondAttribute="centerY" id="dXg-JZ-HHN"/>
-                            <constraint firstAttribute="centerX" secondItem="SML-Um-wX9" secondAttribute="centerX" id="uyk-CJ-zb3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="gMi-Sh-fwL"/>
