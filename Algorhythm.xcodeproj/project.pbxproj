@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3FDA829A1BAE530800DC5676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA82991BAE530800DC5676 /* AppDelegate.swift */; };
-		3FDA829C1BAE530800DC5676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA829B1BAE530800DC5676 /* ViewController.swift */; };
+		3FDA829C1BAE530800DC5676 /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA829B1BAE530800DC5676 /* PlaylistMasterViewController.swift */; };
 		3FDA829F1BAE530800DC5676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDA829D1BAE530800DC5676 /* Main.storyboard */; };
 		3FDA82A11BAE530800DC5676 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDA82A01BAE530800DC5676 /* Images.xcassets */; };
 		3FDA82A41BAE530800DC5676 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDA82A21BAE530800DC5676 /* LaunchScreen.xib */; };
 		3FDA82B01BAE530800DC5676 /* AlgorhythmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA82AF1BAE530800DC5676 /* AlgorhythmTests.swift */; };
+		3FDA82BA1BAE639500DC5676 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA82B91BAE639500DC5676 /* PlaylistDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		3FDA82941BAE530800DC5676 /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDA82981BAE530800DC5676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FDA82991BAE530800DC5676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FDA829B1BAE530800DC5676 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FDA829B1BAE530800DC5676 /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
 		3FDA829E1BAE530800DC5676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FDA82A01BAE530800DC5676 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3FDA82A31BAE530800DC5676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3FDA82A91BAE530800DC5676 /* AlgorhythmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorhythmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDA82AE1BAE530800DC5676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FDA82AF1BAE530800DC5676 /* AlgorhythmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorhythmTests.swift; sourceTree = "<group>"; };
+		3FDA82B91BAE639500DC5676 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				3FDA82991BAE530800DC5676 /* AppDelegate.swift */,
-				3FDA829B1BAE530800DC5676 /* ViewController.swift */,
+				3FDA829B1BAE530800DC5676 /* PlaylistMasterViewController.swift */,
+				3FDA82B91BAE639500DC5676 /* PlaylistDetailViewController.swift */,
 				3FDA829D1BAE530800DC5676 /* Main.storyboard */,
 				3FDA82A01BAE530800DC5676 /* Images.xcassets */,
 				3FDA82A21BAE530800DC5676 /* LaunchScreen.xib */,
@@ -212,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FDA829C1BAE530800DC5676 /* ViewController.swift in Sources */,
+				3FDA82BA1BAE639500DC5676 /* PlaylistDetailViewController.swift in Sources */,
+				3FDA829C1BAE530800DC5676 /* PlaylistMasterViewController.swift in Sources */,
 				3FDA829A1BAE530800DC5676 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
