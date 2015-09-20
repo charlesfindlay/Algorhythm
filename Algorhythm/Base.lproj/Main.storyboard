@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="uDP-80-Rdb" kind="push" id="GTc-Ib-p0o"/>
+                                    <segue destination="uDP-80-Rdb" kind="push" identifier="showPlaylistDetail" id="GTc-Ib-p0o"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -53,9 +53,24 @@
                     <view key="view" contentMode="scaleToFill" id="BOE-FB-SeR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You haven't pressed the button" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHd-4h-Bub">
+                                <rect key="frame" x="40" y="273" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.37153967196117355" green="0.73995817549999998" blue="0.33165801486089846" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="nHd-4h-Bub" secondAttribute="centerX" id="RYM-Da-2ob"/>
+                            <constraint firstAttribute="centerY" secondItem="nHd-4h-Bub" secondAttribute="centerY" id="k1K-MB-5uo"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="9nD-Zu-ROj"/>
+                    <connections>
+                        <outlet property="buttonPressLabel" destination="nHd-4h-Bub" id="Kf0-yx-eyV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9wX-S5-EB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
